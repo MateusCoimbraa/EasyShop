@@ -5,11 +5,11 @@ Protótipo de um mini e-commerce que usa **dois bancos de dados locais ao mesmo 
 ## Integrantes
 
 - Mateus Coimbra de Oliveira
-- 
+- Maria Fernanda Candido Dionisio
 
 ## Vídeo de demonstração
 
-- Link: COLE_AQUI_O_LINK_DO_VIDEO (YouTube ou Google Drive)
+- Link: COLE_AQUI_O_LINK_DO_VIDEO
 
 ## Objetivo
 
@@ -49,7 +49,7 @@ Fluxo: `View -> ViewModel -> Service -> Repository -> Banco`
 
 ## Tecnologias
 
-- .NET 8 / .NET MAUI
+- .NET 10 / .NET MAUI
 - sqlite-net-pcl + SQLitePCLRaw.bundle_green
 - LiteDB
 - CommunityToolkit.Mvvm
@@ -57,17 +57,17 @@ Fluxo: `View -> ViewModel -> Service -> Repository -> Banco`
 ## Como executar
 
 **Pré-requisitos**
-- Visual Studio 2022 (ou mais recente) com a carga de trabalho **Desenvolvimento de interface do usuário multiplataforma .NET (MAUI)**
-- Android SDK e um emulador Android criado no **Device Manager** (ex.: Pixel 5, API 34)
+- Visual Studio com suporte ao .NET 10 e a carga de trabalho **Desenvolvimento de interface do usuário multiplataforma .NET (MAUI)**
+- .NET 10 SDK
 
 **Passos**
 1. Clone o repositório:
    ```bash
-   git clone URL_DO_REPOSITORIO
+   git clone https://github.com/MateusCoimbraa/EasyShop.git
    ```
-2. Abra o arquivo `EasyShop.sln` (ou `EasyShop.csproj`) no Visual Studio.
+2. Abra o arquivo `EasyShop.csproj` no Visual Studio (Arquivo > Abrir > Projeto/Solução).
 3. Aguarde a restauração dos pacotes NuGet.
-4. Na barra superior, selecione o framework **net8.0-android** e o emulador criado.
+4. Na barra superior, selecione o framework **net10.0-android** e o emulador criado.
 5. Pressione **F5** para executar.
 
 ## Como testar
