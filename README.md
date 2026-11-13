@@ -8,8 +8,7 @@ Protótipo de um mini e-commerce que usa **dois bancos de dados locais ao mesmo 
 - Maria Fernanda Candido Dionisio
 
 ## Vídeo de demonstração
-
-- Link: COLE_AQUI_O_LINK_DO_VIDEO
+- Link: [Assistir no Google Drive](https://drive.google.com/file/d/1T23He9JI88TR35AoyRfgqpXfqZwf8bdY/view?usp=sharing)
 
 ## Objetivo
 
